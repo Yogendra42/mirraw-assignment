@@ -1,0 +1,98 @@
+.App{
+  font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.banner{
+  font: normal 14px/16px cera;
+  height: 24px;
+  color: #fff;
+  background: #000;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currbtn{
+  border: 0;
+  background: transparent;
+  padding: 0;
+  outline: none;
+  position: absolute;
+  left: calc(50% - 600px);
+  cursor: pointer;
+  color: #fff;
+}
+
+.currbtn .down {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  position: relative;
+  margin: 0 5px;
+}
+
+.currbtn .down:before {
+  content: "";
+  border: 1px solid #fff;
+  height: 5px;
+  width: 5px;
+  border-color: transparent #fff #fff transparent;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.textscreen{
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  width: 900px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.txtspan{
+  width: 100%;
+  font-size: 0.9rem;
+  font-family: Cera;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #000;
+  line-height: 24px;
+  height: 24px;
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    overflow: initial;
+    color: #fff;
+    animation: right_to_left 20s linear infinite;
+}
+
+@keyframes right_to_left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: -100%;
+  }
+}
