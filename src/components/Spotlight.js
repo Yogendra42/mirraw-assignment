@@ -11,6 +11,9 @@ const  brands = [spot1, spot2, spot3, spot4, spot5, spot6];
 const Spotlight = () => {
     return(
         <div className="spotlight">
+            <div className="sptlgt">
+                In The Spotlight
+            </div>
             {/* single responsibility principle and  ui design similar so component can be reused  */}
             {brands.map((brand) => <Brand brand={brand} /> )} 
         </div>

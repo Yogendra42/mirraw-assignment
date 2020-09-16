@@ -256,3 +256,15 @@
   margin: 8px auto 0;
 }
 
+.sptlgt{
+  font-family: Cera;
+  width: 100%;
+  max-width: 1200px;
+  font-size: 1.7143rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0;
+  margin-top: 56px;
+  padding-right: 15px;
+  text-align: left;
+}
