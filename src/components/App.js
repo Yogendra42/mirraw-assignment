@@ -12,7 +12,7 @@ function App() {
           <Route
             path="/"
             render={() => (
-              <Header />  // reusable and easy to debug 
+              <Header />  // reusable, easy to debug and rerender happens when changes are made in that component
             )}
           />
         </Switch>
@@ -20,7 +20,7 @@ function App() {
           <Route
             path="/"
             render={() => (
-              <Main /> //  easy to debug 
+              <Main /> //  easy to debug and rerender happens when changes are made in that component
             )}
           />
         </Switch>

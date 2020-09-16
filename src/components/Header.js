@@ -4,8 +4,8 @@ import TopHeader from './TopHeader';
 const Header = () => {
     return(
         <header className="header">
-        <Banner />
-        <TopHeader />
+        <Banner />    {/*  reusable and  single responsibility principle */}
+        <TopHeader /> {/* single responsibility principle */}
         </header>
     )
 }

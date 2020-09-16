@@ -4,7 +4,7 @@ import Spotlight from './Spotlight';
 const Main = () => {
     return(
         <div className="main">
-            <Slide />  {/* easy to share code  and reusable at other pages*/}
+            <Slide />  {/* single responsibility principle and reusable at other pages and no changes no rerender*/}
             <Spotlight />
         </div>
     )
