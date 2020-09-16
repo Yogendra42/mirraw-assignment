@@ -1,4 +1,5 @@
 import React from 'react';
+import Brand from './Brand';
 import spot1 from '../images/spot1.png';
 import spot2 from '../images/spot2.png';
 import spot3 from '../images/spot3.png';
@@ -10,7 +11,7 @@ const  brands = [spot1, spot2, spot3, spot4, spot5, spot6];
 const Spotlight = () => {
     return(
         <div className="spotlight">
-            {brands.map((brand, index) => <div className="brand" key={index}><img src={brand} alt="brandlogo" className="brandimg" /></div>)}
+            {brands.map((brand) => <Brand brand={brand} /> )} 
         </div>
     )
 }
