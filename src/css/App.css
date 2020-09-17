@@ -241,6 +241,7 @@
   width: 100%;
     /* opacity: 0; */
     animation: fillcolor 2s ease-out 2s 1 normal forwards running;
+    /* ease out animations gives feeling of responsiveness while loading*/
 }
 
 @keyframes fillcolor {
